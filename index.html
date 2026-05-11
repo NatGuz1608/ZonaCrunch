@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Crunch – Tu Restaurante</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="#hero" class="logo">
+      <div class="logo-circle">
+        <svg class="mi-svg" viewBox="0 0 44 44">
+          <circle class="mi-circulo" cx="22" cy="22" r="20"/>
+          <image class="mi-imagen" href="img/LogoCru.png" />
+        </svg>
+      </div>
+
+    <div class="logo-text"><span class="top">ZONA</span><span class="sub">CRUNCH</span></div>
+  </a>
+  <nav>
+    <a href="#hero">Inicio</a>
+    <a href="#quienes-somos">¿Quiénes Somos?</a>
+    <a href="#menu">Menú</a>
+    <a href="#promociones">Promociones</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="hero">
+  <div class="hero-bg"></div>
+    <video autoplay loop muted playsinline class="video-background">
+        <source src="img/Video/VideoHero.mp4" type="video/mp4">
+    </video>
+      <svg class="geo geo-l" viewBox="0 0 200 210" fill="none">
+          <path d="M20 190 Q20 20 190 20" stroke="#e8711a" stroke-width="5" fill="none"/>
+          <path d="M40 190 Q40 40 190 40" stroke="#e8711a" stroke-width="4" fill="none"/>
+          <path d="M65 190 Q65 65 190 65" stroke="#e8711a" stroke-width="3" fill="none"/>
+          <path d="M90 190 Q90 90 190 90" stroke="#e8711a" stroke-width="2" fill="none"/>
+      </svg>
+
+      <svg class="geo geo-r" viewBox="0 0 200 210" fill="none">
+          <path d="M190 20 Q190 190 20 190" stroke="#e8711a" stroke-width="5" fill="none"/>
+          <path d="M190 45 Q190 165 45 165" stroke="#e8711a" stroke-width="4" fill="none"/>
+          <path d="M190 70 Q190 140 70 140" stroke="#e8711a" stroke-width="3" fill="none"/>
+          <path d="M190 95 Q190 115 95 115" stroke="#e8711a" stroke-width="2" fill="none"/>
+      </svg>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><circle cx="6.5" cy="6.5" r="5.5" stroke="#fff" stroke-width="1.2"/><path d="M3.5 6.5L5.5 8.5L9.5 4.5" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Tu Restaurante
+    </div>
+    <h1 class="hero-title">ZONA CRUNCH</h1>
+    <p class="hero-sub">Más que una comida una experiencia</p>
+    <a href="#menu" class="btn-hero">
+      <span class="btn-icon">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M6.5 2v9M3 8.5l3.5 3.5 3.5-3.5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      Disfruta más
+    </a>
+  </div>
+  <div class="scroll-down">
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 7l5 5 5-5" stroke="rgba(255,255,255,.7)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Explorar</span>
+  </div>
+</section>
+
+
+<section id="quienes-somos">
+ 
+  <div class="qs-geo-bg"></div>
+ 
+
+  <div class="qs-banner">
+    <div class="qs-banner-bg"></div>
+ 
+    <!-- SVG geo corners (mismo estilo que hero) -->
+    <svg class="qs-geo-l" viewBox="0 0 200 210" fill="none">
+      <path d="M20 190 Q20 20 190 20"  stroke="#e8711a" stroke-width="5" fill="none"/>
+      <path d="M40 190 Q40 40 190 40"  stroke="#e8711a" stroke-width="4" fill="none"/>
+      <path d="M65 190 Q65 65 190 65"  stroke="#e8711a" stroke-width="3" fill="none"/>
+      <path d="M90 190 Q90 90 190 90"  stroke="#e8711a" stroke-width="2" fill="none"/>
+    </svg>
+    <svg class="qs-geo-r" viewBox="0 0 200 210" fill="none">
+      <path d="M20 190 Q20 20 190 20"  stroke="#e8711a" stroke-width="5" fill="none"/>
+      <path d="M40 190 Q40 40 190 40"  stroke="#e8711a" stroke-width="4" fill="none"/>
+      <path d="M65 190 Q65 65 190 65"  stroke="#e8711a" stroke-width="3" fill="none"/>
+      <path d="M90 190 Q90 90 190 90"  stroke="#e8711a" stroke-width="2" fill="none"/>
+    </svg>
+ 
+    <div class="qs-banner-content">
+      <p class="qs-banner-small">Conoce nuestra</p>
+      <h2 class="qs-banner-big">HISTORIA</h2>
+      <div class="banner-line"></div>
+    </div>
+  </div>
+ 
+  <!-- ── CONTENIDO ──────────────────────────────── -->
+  <div class="qs-content">
+ 
+    <!-- Bloque Historia -->
+    <div class="qs-historia">
+ 
+      <div class="historia-text">
+        <div class="historia-badge">
+          <div class="historia-badge-dot"></div>
+          Nuestra historia
+        </div>
+        <h2 class="historia-title">
+          NACIDOS PARA EL <span>CRUJIDO</span> PERFECTO
+        </h2>
+        <p class="historia-body">
+          Todo comenzó en 2018 con una sola freidora, una receta familiar y la convicción de que la comida rápida podía ser algo más. Fundada en el corazón del barrio Chapinero por los hermanos Andrés y Camila Rojas, <strong>Zona Crunch</strong> abrió sus puertas con una misión simple: darle a Bogotá el bocado más crujiente y sabroso de su vida.
+        </p>
+        <div class="historia-cta">
+          Más de 6 años llenando Bogotá de sabor
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4.5L10.5 7 8 9.5" stroke="#e8711a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+ 
+      <div class="historia-visual">
+        <div class="historia-card-big">
+          <div class="hc-badge-float">Desde 2018</div>
+          <div class="hc-year">ZC</div>
+          <div class="hc-line"></div>
+          <div class="hc-quote">
+            "No vendemos comida rápida. Vendemos el <em>mejor momento</em> de tu día."
+          </div>
+          <div class="hc-sub">
+            — Andrés Rojas, Co-fundador y Chef Ejecutivo de Zona Crunch
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+
+        <div class="qs-divider"></div>
+
+       <!-- Stats -->
+    <div class="qs-stats">
+      <div class="stat-card">
+        <span class="stat-icon">
+          <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 3v10l6 3" stroke="#e8711a" stroke-width="2" stroke-linecap="round"/><circle cx="13" cy="13" r="10" stroke="#e8711a" stroke-width="1.5"/></svg>
+        </span>
+        <div class="stat-number">6<sup>+</sup></div>
+        <div class="stat-label">Años de sabor</div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">
+          <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M9 12c2.5 0 4-1.5 4-4s-1.5-4-4-4-4 1.5-4 4 1.5 4 4 4zM3 22c0-4 2.7-6 6-6M17 14c2.5 0 4-1.5 4-3.5S19.5 7 17 7M23 22c0-3.5-2.3-5.2-5-5.5M13 22c0-3-2-5-4-5" stroke="#e8711a" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <div class="stat-number">40<sup>k</sup></div>
+        <div class="stat-label">Clientes felices</div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">
+          <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M5 20c0-6 3-10 8-10s8 4 8 10" stroke="#e8711a" stroke-width="1.6" stroke-linecap="round"/><path d="M10 10c0-2 1.3-4 3-4s3 2 3 4" stroke="#e8711a" stroke-width="1.4" stroke-linecap="round"/><path d="M4 20h18" stroke="#e8711a" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </span>
+        <div class="stat-number">16</div>
+        <div class="stat-label">Productos en menú</div>
+      </div>
+    </div>
+ 
+
+</section>
+
+<section id="menu">
+  <div class="menu-geo-bg"></div>
+  <div class="menu-banner">
+    <div class="banner-bg"></div>
+    <div class="banner-content">
+      <p class="banner-small">Conoce nuestro</p>
+      <h2 class="banner-big">MENÚ</h2>
+      <div class="banner-line"></div>
+    </div>
+  </div>
+  <div class="cat-label-wrap">
+    <div class="cat-label">
+      <h3>CATEGORÍAS</h3>
+      <p>Elige tu favorito y disfruta.</p>
+    </div>
+  </div>
+  <div class="cat-tabs">
+    <button class="cat-tab active" data-cat="hamburguesa">Hamburguesa</button>
+    <button class="cat-tab"        data-cat="perro">Perro</button>
+    <button class="cat-tab"        data-cat="pizza">Pizza</button>
+    <button class="cat-tab"        data-cat="salchipapa">Salchipapa</button>
+  </div>
+
+<div class="cat-panel active" id="panel-hamburguesa">
+  <div class="cards-grid">
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-h1"><img src="img/Imagenes_Producto/Hamburguesas/gourmet.png" alt="Burguer Gourmet" class="product-img"></div>
+        <div class="card-name">Burguer Gourmet</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Burguer Gourmet</div><div class="back-bar"></div><p class="back-desc">Carne, queso suiza, champiñones, cebolla caramelizada, salsa de ajo y hoja de rúcula</p><div class="back-price">Precio: <em>22.000</em></div></div>
+    </div></div>
+    
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-h2"><img src="img/Imagenes_Producto/Hamburguesas/bbq.png" alt="Burguer BBQ" class="product-img"></div>
+        <div class="card-name">Burguer BBQ Whisky</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Burguer BBQ Whisky</div><div class="back-bar"></div><p class="back-desc">Carne, queso cheddar, cebolla crispy, bacon y salsa BBQ de whisky</p><div class="back-price">Precio: <em>20.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-h3"><img src="img/Imagenes_Producto/Hamburguesas/clasica.png" alt="Burguer Clásica" class="product-img"></div>
+        <div class="card-name">Burguer Clásica</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Burguer Clásica</div><div class="back-bar"></div><p class="back-desc">Carne, queso, lechuga, tomate, pepinillos, salsa de tomate y mostaza</p><div class="back-price">Precio: <em>16.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-h4"><img src="img/Imagenes_Producto/Hamburguesas/tex mex.png" alt="Burguer TexMex" class="product-img"></div>
+        <div class="card-name">Burguer TexMex</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Burguer TexMex</div><div class="back-bar"></div><p class="back-desc">Carne, queso pepper jack, guacamole, pico de gallo y tiras de tortilla crujiente</p><div class="back-price">Precio: <em>18.000</em></div></div>
+    </div></div>
+  </div>
+</div>
+
+<div class="cat-panel" id="panel-perro">
+  <div class="cards-grid">
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-p1"><img src="img/Imagenes_Producto/perros/perro 1.png" alt="Perro Clásico" class="product-img"></div>
+        <div class="card-name">Perro Clásico</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Perro Clásico</div><div class="back-bar"></div><p class="back-desc">Salchicha premium, pan brioche, mostaza, kétchup, cebolla picada y papas palito</p><div class="back-price">Precio: <em>12.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-p2"><img src="img/Imagenes_Producto/perros/perro 2.png" alt="Perro Hawaiano" class="product-img"></div>
+        <div class="card-name">Perro Hawaiano</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Perro Hawaiano</div><div class="back-bar"></div><p class="back-desc">Salchicha, pan brioche, piña caramelizada, mayo de coco, maíz dulce y cebollín</p><div class="back-price">Precio: <em>14.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-p3"><img src="img/Imagenes_Producto/perros/perro 3.png" alt="Perro Ranchero" class="product-img"></div>
+        <div class="card-name">Perro Ranchero</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Perro Ranchero</div><div class="back-bar"></div><p class="back-desc">Salchicha ahumada, queso cheddar fundido, jalapeños, cebolla caramelizada y salsa ranchera</p><div class="back-price">Precio: <em>15.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-p4"><img src="img/Imagenes_Producto/perros/perro 4.png" alt="Perro Italiano" class="product-img"></div>
+        <div class="card-name">Perro Italiano</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Perro Italiano</div><div class="back-bar"></div><p class="back-desc">Salchicha italiana, pan ciabatta tostado, pesto de albahaca, tomate cherry y parmesano</p><div class="back-price">Precio: <em>16.000</em></div></div>
+    </div></div>
+  </div>
+</div>
+
+<div class="cat-panel" id="panel-pizza">
+  <div class="cards-grid">
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-z1"><img src="img/Imagenes_Producto/pizzas/pizza 1.png" alt="Pizza Margarita" class="product-img"></div>
+        <div class="card-name">Pizza Margarita</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Pizza Margarita</div><div class="back-bar"></div><p class="back-desc">Salsa napolitana artesanal, mozzarella fresca, albahaca, aceite de oliva y orégano</p><div class="back-price">Precio: <em>24.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-z2"><img src="img/Imagenes_Producto/pizzas/pizza 2.png" alt="Pizza Pepperoni" class="product-img"></div>
+        <div class="card-name">Pizza Pepperoni</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Pizza Pepperoni</div><div class="back-bar"></div><p class="back-desc">Salsa de tomate, mozzarella extra, pepperoni importado, pimientos rojos y orégano</p><div class="back-price">Precio: <em>26.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-z3"><img src="img/Imagenes_Producto/pizzas/pizza 3.png" alt="Pizza Pollo BBQ" class="product-img"></div>
+        <div class="card-name">Pizza Pollo BBQ</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Pizza Pollo BBQ</div><div class="back-bar"></div><p class="back-desc">Salsa BBQ, pollo a la parrilla, cebolla morada, maíz dulce, mozzarella y cilantro</p><div class="back-price">Precio: <em>25.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-z4"><img src="img/Imagenes_Producto/pizzas/pizza 4.png" alt="Pizza 4 Quesos" class="product-img"></div>
+        <div class="card-name">Pizza 4 Quesos</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Pizza 4 Quesos</div><div class="back-bar"></div><p class="back-desc">Mozzarella, gorgonzola, parmesano y provolone sobre base de crema blanca con nuez</p><div class="back-price">Precio: <em>27.000</em></div></div>
+    </div></div>
+  </div>
+</div>
+
+<div class="cat-panel" id="panel-salchipapa">
+  <div class="cards-grid">
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-s1"><img src="img/Imagenes_Producto/salchipapas/salchipapa 1.png" alt="Salchipapa Clásica" class="product-img"></div>
+        <div class="card-name">Salchipapa Clásica</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Salchipapa Clásica</div><div class="back-bar"></div><p class="back-desc">Papa crispy dorada, salchicha en rodajas, kétchup, mostaza y mayonesa</p><div class="back-price">Precio: <em>10.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-s2"><img src="img/Imagenes_Producto/salchipapas/salchipapa 2.png" alt="Salchipapa Especial" class="product-img"></div>
+        <div class="card-name">Salchipapa Especial</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Salchipapa Especial</div><div class="back-bar"></div><p class="back-desc">Papa crispy, salchicha premium, queso cheddar fundido, tocino crujiente y cebollín</p><div class="back-price">Precio: <em>13.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-s3"><img src="img/Imagenes_Producto/salchipapas/salchipapa 3.png" alt="Salchipapa Crunch" class="product-img"></div>
+        <div class="card-name">Salchipapa Crunch</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Salchipapa Crunch</div><div class="back-bar"></div><p class="back-desc">Papa con costra de panko, salchicha ahumada, pico de gallo, parmesano y salsa secreta</p><div class="back-price">Precio: <em>14.000</em></div></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front">
+        <div class="card-img bg-s4"><img src="img/Imagenes_Producto/salchipapas/salchipapa 4.png" alt="Salchipapa Loca" class="product-img"></div>
+        <div class="card-name">Salchipapa Loca</div>
+      </div>
+      <div class="flip-back"><div class="back-name">Salchipapa Loca</div><div class="back-bar"></div><p class="back-desc">Papa crispy, salchicha, queso rosa de remolacha, guacamole, jalapeños y chipotle</p><div class="back-price">Precio: <em>15.000</em></div></div>
+    </div></div>
+  </div>
+</div>
+
+</section>
+
+<section id="promociones" class="promociones">
+    <div class="section-title-wrap">
+        <h2 class="section-title-alt">PROMOCIONES</h2>
+        <div class="banner-line"></div>
+    </div>
+    <!-- PROMOCIONES -->
+        <div class="promo-banner">
+            <img src="img/Promociones/Principal1.png" alt="comida">
+        </div>
+
+        <!-- Carousel -->
+        <div class="promo-carousel-wrap">
+            <div class="promo-fade-wrap">
+                <div class="promo-track-outer" id="promoOuter">
+                    <div class="promo-track" id="promoTrack"></div>
+                </div>
+            </div>
+
+            <div class="promo-controls">
+                <button class="p-arrow" id="promoPrev" aria-label="Anterior">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M11 4L6 9l5 5" />
+                    </svg>
+                </button>
+                <div class="p-dots" id="promoDots"></div>
+                <div class="p-prog-wrap"><div class="p-prog-bar" id="promoBar"></div></div>
+                <button class="p-arrow" id="promoNext" aria-label="Siguiente">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7 4l5 5-5 5" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="app" class="app-section">
+        <div class="app-container">
+            <div class="app-text">
+                <h2>¡DESCARGA NUESTRA APP!</h2>
+                <div class="banner-line"></div>
+                <p>Escanea nuestro código QR para tener el Combo Grande a solo un clic de distancia. ¡No te pierdas el sabor!</p>
+            </div>
+            <div class="app-img">
+                <img src="img/PosterAppZC.png" alt="App Zona Crunch">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <h2 class="section-title-alt">CONTÁCTANOS</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <textarea placeholder="Escríbenos tu mensaje..." rows="4" required></textarea>
+                <button type="submit" class="btn-submit">ENVIAR MENSAJE</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>ZONA CRUNCH</h3>
+                <div class="info-item">
+                    <p><strong>Ubicación:</strong> Cra. 15 #93-47, Bogotá</p>
+                    <p><strong>Teléfono:</strong> +57 320 456 7890</p>
+                    <p><strong>Email:</strong> contacto@zonacrunch.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer ZonaCrunch -->
+    <footer class="footer-zona-crunch">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo-text">ZONA <span class="sub">CRUNCH</span></div>
+                <p>Nacidos en el corazón de Bogotá, llevamos el crujido perfecto a cada rincón de la ciudad. Calidad premium, sabor inigualable.</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Explorar</h4>
+                <ul>
+                    <li><a href="#">Nuestro Menú</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Locales</a></li>
+                    <li><a href="#">Trabaja con nosotros</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Horarios</h4>
+                <ul>
+                    <li>Lun - Jue: 11:00 - 22:00</li>
+                    <li>Vie - Sáb: 11:00 - 23:30</li>
+                    <li>Domingos: 12:00 - 21:00</li>
+                    <li><span class="highlight-festivo">Festivos: Abierto</span></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Soporte</h4>
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">PQR y Sugerencias</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2026 ZONA CRUNCH – DESARROLLADO CON PASIÓN POR EL SABOR.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
